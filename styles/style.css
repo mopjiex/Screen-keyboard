@@ -1,0 +1,99 @@
+
+.container {
+  max-width: 1550px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.keyboard {
+  padding-top: 30px;
+}
+
+.keyboard__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.keyboard__textarea {
+  max-width: 500px;
+  height: 200px;
+  width: 100%;
+  resize: none;
+  padding: 15px;
+  font-size: 20px;
+  line-height: 100%;
+  margin-bottom: 30px;
+}
+
+.keyboard__rows {
+  display: flex;
+  gap: 5px;
+}
+
+.keyboard__key {
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: 50px;
+  height: 40px;
+  position: relative;
+  font-size: 24px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.keyboard__key:hover {
+  background-color: #ddd;
+}
+
+.keyboard__up,
+.keyboard__down {
+  position: absolute;
+}
+
+.keyboard__up {
+  top: 2px;
+  left: 2px;
+}
+
+.keyboard__down {
+  bottom: 2px;
+  left: 24px;
+}
+
+.key-num,
+.key-space,
+.key-caps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.key-caps {
+  width: 130px;
+  padding: 10px;
+  font-size: 16px;
+  justify-content: space-between;
+}
+
+
+.active .caps__cirlce {
+  background-color: green;
+}
+
+.caps__cirlce {
+  width: 6px;
+  height: 6px;
+  border: 1px solid #000;
+  background-color: red;
+  border-radius: 50px;
+  
+}
+
+.key-space {
+  width: 400px;
+}
+
+

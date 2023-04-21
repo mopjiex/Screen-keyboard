@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./js/main.js" defer></script>
+    <title>Screen keyboard</title>
+</head>
+<body>
+    <div class="keyboard">
+        <div class="container">
+            <div class="keyboard__inner">
+                <textarea class="keyboard__textarea"></textarea>
+
+                <div class="keyboard__rows">
+                    <div class="keyboard__key key-caps">
+                        Caps Lock
+                        <div class="caps__cirlce"></div>
+                    </div>
+                    <div class="keyboard__key key-num" data-key="1">1</div>
+                    <div class="keyboard__key key-num" data-key="2">2</div>
+                    <div class="keyboard__key key-num" data-key="3">3</div>
+                    <div class="keyboard__key key-num" data-key="4">4</div>
+                    <div class="keyboard__key key-num" data-key="5">5</div>
+                    <div class="keyboard__key key-num" data-key="6">6</div>
+                    <div class="keyboard__key key-num" data-key="7">7</div>
+                    <div class="keyboard__key key-num" data-key="8">8</div>
+                    <div class="keyboard__key key-num" data-key="9">9</div>
+                    <div class="keyboard__key key-num" data-key="0">0</div>
+                </div>
+
+                <div class="keyboard__rows">
+                    <div class="keyboard__key" data-key="й">
+                        <p class="keyboard__up">Q</p>
+                        <p class="keyboard__down">й</p>
+                    </div>
+                    <div class="keyboard__key" data-key="ц">
+                        <p class="keyboard__up">W</p>
+                        <p class="keyboard__down">ц</p>
+                    </div>
+                    <div class="keyboard__key" data-key="у">
+                        <p class="keyboard__up">E</p>
+                        <p class="keyboard__down">у</p>
+                    </div>
+                    <div class="keyboard__key" data-key="к">
+                        <p class="keyboard__up">R</p>
+                        <p class="keyboard__down">к</p>
+                    </div>
+                    <div class="keyboard__key" data-key="е">
+                        <p class="keyboard__up">T</p>
+                        <p class="keyboard__down">е</p>
+                    </div>
+                    <div class="keyboard__key" data-key="н">
+                        <p class="keyboard__up">Y</p>
+                        <p class="keyboard__down">н</p>
+                    </div>
+                    <div class="keyboard__key" data-key="г">
+                        <p class="keyboard__up">U</p>
+                        <p class="keyboard__down">г</p>
+                    </div>
+                    <div class="keyboard__key" data-key="ш">
+                        <p class="keyboard__up">I</p>
+                        <p class="keyboard__down">ш</p>
+                    </div>
+                    <div class="keyboard__key" data-key="щ">
+                        <p class="keyboard__up">О</p>
+                        <p class="keyboard__down">щ</p>
+                    </div>
+                    <div class="keyboard__key" data-key="з">
+                        <p class="keyboard__up">Р</p>
+                        <p class="keyboard__down">з</p>
+                    </div>
+                    <div class="keyboard__key" data-key="х">
+                        <p class="keyboard__up"></p>
+                        <p class="keyboard__down">х</p>
+                    </div>
+                    <div class="keyboard__key" data-key="ъ">
+                        <p class="keyboard__up"></p>
+                        <p class="keyboard__down">ъ</p>
+                    </div>
+                </div>
+                
+                <div class="keyboard__rows">
+                    <div class="keyboard__key" data-key="ф">
+                        <p class="keyboard__up">A</p>
+                        <p class="keyboard__down">ф</p>
+                    </div>
+                    <div class="keyboard__key" data-key="ы">
+                        <p class="keyboard__up">S</p>
+                        <p class="keyboard__down">ы</p>
+                    </div>
+                    <div class="keyboard__key" data-key="в">
+                        <p class="keyboard__up">D</p>
+                        <p class="keyboard__down">в</p>
+                    </div>
+                    <div class="keyboard__key" data-key="а">
+                        <p class="keyboard__up">F</p>
+                        <p class="keyboard__down">а</p>
+                    </div>
+                    <div class="keyboard__key" data-key="п">
+                        <p class="keyboard__up">G</p>
+                        <p class="keyboard__down">п</p>
+                    </div>
+                    <div class="keyboard__key" data-key="р">
+                        <p class="keyboard__up">H</p>
+                        <p class="keyboard__down">p</p>
+                    </div>
+                    <div class="keyboard__key" data-key="о">
+                        <p class="keyboard__up">J</p>
+                        <p class="keyboard__down">o</p>
+                    </div>
+                    <div class="keyboard__key" data-key="л">
+                        <p class="keyboard__up">K</p>
+                        <p class="keyboard__down">л</p>
+                    </div>
+                    <div class="keyboard__key" data-key="д">
+                        <p class="keyboard__up">L</p>
+                        <p class="keyboard__down">д</p>
+                    </div>
+                    <div class="keyboard__key" data-key="ж">
+                        <p class="keyboard__up"></p>
+                        <p class="keyboard__down">ж</p>
+                    </div>
+                    <div class="keyboard__key" data-key="э">
+                        <p class="keyboard__up"></p>
+                        <p class="keyboard__down">э</p>
+                    </div>
+                </div>
+
+                <div class="keyboard__rows">
+                    <div class="keyboard__key">
+                        <p class="keyboard__up" data-key="я">Z</p>
+                        <p class="keyboard__down">я</p>
+                    </div>
+                    <div class="keyboard__key" data-key="ч">
+                        <p class="keyboard__up">X</p>
+                        <p class="keyboard__down">ч</p>
+                    </div>
+                    <div class="keyboard__key" data-key="с">
+                        <p class="keyboard__up">С</p>
+                        <p class="keyboard__down">с</p>
+                    </div>
+                    <div class="keyboard__key" data-key="м">
+                        <p class="keyboard__up">V</p>
+                        <p class="keyboard__down">м</p>
+                    </div>
+                    <div class="keyboard__key" data-key="и">
+                        <p class="keyboard__up">B</p>
+                        <p class="keyboard__down">и</p>
+                    </div>
+                    <div class="keyboard__key" data-key="т">
+                        <p class="keyboard__up">N</p>
+                        <p class="keyboard__down">т</p>
+                    </div>
+                    <div class="keyboard__key" data-key="ь">
+                        <p class="keyboard__up">M</p>
+                        <p class="keyboard__down">ь</p>
+                    </div>
+                    <div class="keyboard__key" data-key="б">
+                        <p class="keyboard__up"></p>
+                        <p class="keyboard__down">б</p>
+                    </div>
+                    <div class="keyboard__key" data-key="ю">
+                        <p class="keyboard__up"></p>
+                        <p class="keyboard__down">ю</p>
+                    </div>  
+                </div>
+                <div class="keyboard__rows">
+                    <div class="keyboard__key key-space" data-key=" ">
+                        Space
+                    </div>  
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
